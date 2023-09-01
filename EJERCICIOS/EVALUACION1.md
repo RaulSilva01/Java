@@ -12,13 +12,15 @@ traducido a un lenguaje que la computadora entiende. (Valor 1 punto)
 
         a. Falso
         b. Cierto
-
+R: b. Cierto
 2. En Java, ¿cuál es el propósito de escribir comentarios en el código? (Valor 1 punto)
 
         a. Proporcionan notas legibles para humanos que aclaran el pensamiento.
         b. Proporcionan controles que el compilador debe pasar.
         c. Indican cómo se imprimen las palabras en la pantalla.
         d. Sólo están presentes en el código de compilación.
+
+R: a. Proporcionan notas legibles para humanos que aclaran el pensamiento.
 
 3. El siguiente código se ejecutará sin error. (Valor 1 punto)
 
@@ -36,6 +38,8 @@ public class LanguagesFacts{
 
         a. Cierto
         b. Falso
+        
+R: a. Cierto
 
 4. ¿Qué imprimirá el siguiente código en la pantalla? (Valor 1 punto)
 
@@ -52,7 +56,7 @@ public class HelloYou{
         a. ¡Hola amigo!
         b. Este código contiene un error.
         c. "¡Hola amigo!"
-
+R: a. ¡Hola amigo!
 
 5. ¿Qué le falta a este programa en Java? (Valor 1 punto)
 
@@ -67,7 +71,7 @@ public class HechosLenguaje{
           c. Un comentario de una sola línea.
           d. El método main().
 
-
+R:   c. Un comentario de una sola línea.
 6. ¿Cuál sería el nombre del archivo si contuviera el siguiente código? (Valor 1 punto)
 
 public class HolaMundo{
@@ -83,18 +87,22 @@ public class HolaMundo{
           a. HolaMundo.java
           b. No hay restricciones en el nombre del archivo en Java.
           c. HolaMundo.class
-
+R:  a. HolaMundo.java
 7. Completa la clase HolaTu del programa HolaTu.java, para que imprima “¡Hola
 Mi_Nombre!” donde “Mi_Nombre” sea tú nombre. (Valor 2 punto)
 
         public class HolaTu {
           public static void main(String[] args) {
+          String mi_nombre="Raul";
+          
+          System.out.println("¡Hola " + mi_nombre + "!!" )
           }
           }
 
 Salida:
 ¡Hola  ́nombre_del_programador ́!!
 
+¡Hola  ́Raul ́!!
 
 8. Dada la clase con método main() LasEscondidas, que pertenece a un programa
 que se llama LasEscondidas.java. (Valor 2 puntos)
@@ -104,6 +112,10 @@ public class LasEscondidas {
   public static void main(String[] args) {
   
    System.out.println("Juguemos a las escondidas.");
+   System.out.print("Tres...");
+   System.out.print("Dos...");
+   System.out.println("Uno...");
+   System.out.println("¡Listos o no, aquí voy!");
     
   }
   
@@ -128,11 +140,12 @@ texto sin formato. (Valor 2 puntos)
               public static void main(String[] args) {
                 System.out.println("¡Hola Java!");
                 System.out.println("Naciste en 1995.");
-                Sun Microsystems anunció el lanzamiento de Java en 1995
+                //Sun Microsystems anunció el lanzamiento de Java en 1995
                 System.out.println("Fuiste creado por James Gosling.");
-                James Gosling es un ingeniero canadiense que
+                /* James Gosling es un ingeniero canadiense que
                 creó Java mientras trabajaba en Sun Microsystems.
                 ¡Su número favorito es la raíz cuadrada de 2!
+                */   
                 System.out.println("¡Eres un lenguaje divertido!");
               }
             }
@@ -142,18 +155,18 @@ Usa comentarios para evitar detener la ejecución del programa por el texto sin 
 a. Usa la sintaxis de comentarios de una sola línea para la primera parte del texto.
 Cambia esta línea a comentario:
 
-Sun Microsystems anunció el lanzamiento de Java en 1995
+//Sun Microsystems anunció el lanzamiento de Java en 1995
 
 b. Usa la sintaxis de varias líneas para convertir estas líneas en un solo comentario:
-James Gosling es un ingeniero canadiense que
+/*James Gosling es un ingeniero canadiense que
 creó Java mientras trabajaba en Sun Microsystems.
 
 ¡Su número favorito es la raíz cuadrada de 2!
 de tal manera que puedas ver impreso el mensaje: ¡Eres un lenguaje divertido!
-
+*/
 c. Escribe la salida del programa.
 
-
+System.out.println("Salida");
 
 10. Escribe el contenido de un programa en java que lleva por nombre
 Evaluacion.java con las siguientes características: (Varlor 2 puntos)
@@ -175,4 +188,13 @@ d. Debajo del comentario, escribe una declaración que imprima lo siguiente:
 ¡Mi primer programa Java desde cero!
 
 e. Escribe la salida del programa.
+
+R:
+public class Evaluacion{
+        public static void main(String [] args){  //El método main ejecuta las tareas de la clase
+        System.out.println("¡Mi primer programa Java desde cero!");
+ }
+}
+
+
 
