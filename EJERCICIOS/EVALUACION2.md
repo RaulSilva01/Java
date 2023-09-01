@@ -13,6 +13,7 @@ clara, según sea el caso.
           b. double isRaining = false;
           c. String gradeOnTest = "A";
           d. char grade_on_test = 'F';
+R: b. double isRaining = false;
 
 2. ¿Cuál de los siguientes valores es un char válido? (Valor 1 punto)
 
