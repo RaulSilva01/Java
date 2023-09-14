@@ -75,7 +75,6 @@ siguiente procedimiento:
   siguiente mensaje: Perros actuales en la estética: “Número de
   perros”.
 
-            TU CODIGO AQUI
 
 
 ![RecibeMascota](https://github.com/RaulSilva01/Java/assets/111548040/43604d97-c27d-4ea8-a663-f1254f14053a)
