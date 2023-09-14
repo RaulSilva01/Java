@@ -76,3 +76,8 @@ siguiente procedimiento:
   perros”.
 
             TU CODIGO AQUI
+
+
+![RecibeMascota](https://github.com/RaulSilva01/Java/assets/111548040/43604d97-c27d-4ea8-a663-f1254f14053a)
+
+![Mascota](https://github.com/RaulSilva01/Java/assets/111548040/3810ef73-cec9-437c-872d-b68f7fb93c46)
