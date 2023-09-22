@@ -88,6 +88,7 @@ public class HolaMundo{
           b. No hay restricciones en el nombre del archivo en Java.
           c. HolaMundo.class
 R:  a. HolaMundo.java
+
 7. Completa la clase HolaTu del programa HolaTu.java, para que imprima “¡Hola
 Mi_Nombre!” donde “Mi_Nombre” sea tú nombre. (Valor 2 punto)
 
@@ -101,7 +102,7 @@ Mi_Nombre!” donde “Mi_Nombre” sea tú nombre. (Valor 2 punto)
 
 Salida:
 ¡Hola  ́nombre_del_programador ́!!
-
+R:
 ¡Hola  ́Raul ́!!
 
 8. Dada la clase con método main() LasEscondidas, que pertenece a un programa
@@ -131,7 +132,7 @@ public class LasEscondidas {
 
           "Uno..."
           "¡Listos o no, aquí voy!"
-
+R: ok
 
 9. Supón que el siguiente código pertenece al programa Timeline.java el cual tiene
 texto sin formato. (Valor 2 puntos)
@@ -151,6 +152,7 @@ texto sin formato. (Valor 2 puntos)
             }
 
 Usa comentarios para evitar detener la ejecución del programa por el texto sin formato.
+R:ok
 
 a. Usa la sintaxis de comentarios de una sola línea para la primera parte del texto.
 Cambia esta línea a comentario:
